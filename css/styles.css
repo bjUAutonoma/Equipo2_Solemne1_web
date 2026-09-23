@@ -1,0 +1,21 @@
+/* Delimita que el contenedor y cada slide tengan la misma altura */
+.carousel-inner,
+.carousel-item {
+    height: 70vh;
+    min-height: 400px;
+}
+
+/* La imagen se ajusta sin salirse del marco */
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Ajuste de proporción para las imágenes de las tarjetas */
+.card-img-top {
+    aspect-ratio: 4 / 3; /* Fuerzas a que todas tengan la misma proporción (ancho/alto) */
+    width: 100%;
+    object-fit: cover; /* Adapta y recorta el sobrante de la imagen sin deformarla */
+}
