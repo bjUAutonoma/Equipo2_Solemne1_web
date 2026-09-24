@@ -13,9 +13,9 @@ Tecnologías Utilizadas: Visual Studio Code, Git y Github.
 
 Distribución de Responsabilidades: 
 .-Creación del repositorio: Benjamin Juanillo.
-.-Landing page (index) creada por todos los integrantes.
+.-Landing page (index): Damon Murray.
 .-Alojamientos-gastronomia: Antonella Araya.
-.-Panoramas con estilo css propio: Damon Murray.
+.-Panoramas con estilo css propio: Damon Murray y Antonella Araya.
 .-Reserva-contacto: Benjamin Juanillo.
 
 Enlace:
