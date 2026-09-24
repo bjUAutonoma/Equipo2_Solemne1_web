@@ -20,7 +20,7 @@ Tecnologías Utilizadas:
   
 Distribución de Responsabilidades:  
 -Creación del repositorio: Benjamin Juanillo.  
--Landing page (index) creada por todos los integrantes.  
+-Landing page (index: Damon Murray.  
 -Alojamientos-gastronomia: Antonella Araya.  
 -Panoramas con estilo css propio: Damon Murray.  
 -Reserva-contacto: Benjamin Juanillo.  
