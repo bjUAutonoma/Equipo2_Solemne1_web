@@ -1,0 +1,133 @@
+<!--Alojamiento y Gastronomía-->
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Creación del head con enlaces a los recursos, título y favicon-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destino Cordillera</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+<!-- Favicon de la página -->
+    <link rel="icon" type="image/png" href="images/cordillera_logo.png" />
+</head>
+
+<!--Creación del cuerpo de la página con navegación navbar y contenido principal-->
+<body>
+<!--Creación del navbar con enlaces a las diferentes secciones de la página-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Destino Cordillera</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="panoramas.html">Panoramas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alojamientos-gastronomia.html">Alojamientos y Gastronomía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reserva-contacto.html">Reserva y Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header>
+        <div class="container mt-5 mb-5 text-center">
+            <h1>Alojamientos y gastronomia</h1>
+            <p class="lead">Descubre como descanzar y disfruta de los mejores sabores tradicionales</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+           <!--alojamientos-->
+           <section id="Alojamientos" class="mt-5">
+                <h2 class="mb-4">Nuestros alojamientos</h2>
+                <div class="row">
+                    <!--tarjeta 1-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/cabaña.jpg" class="card-img-top" alt="Alojamiento 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cabaña rustica "Andes"</h5>
+                            <p class="card-text">Hermosa cabaña estilo rustico con capacidad para 4 personas, con estufa a leña y vista priviligiada al valle.</p>
+                            <a href="reserva-contacto.html" class="btn btn-primary">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <!--tarjeta 2-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/hotel.jpg" class="card-img-top" alt="Alojamiento 2"><!--cambiar fotos-->
+                        <div class="card-body">
+                            <h5 class="card-title">Hotel "Cordillera Real"</h5>
+                            <p class="card-text">Habitaciones cómodas y calidas con desayuno incluido, excelente atención y con la mejor ubicación.</p>
+                            <a href="reserva-contacto.html" class="btn btn-primary">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <!--tarjeta 3-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/domos.jpg" class="card-img-top" alt="Alojamiento 3"><!--cambiar foto-->
+                        <div class="card-body">
+                            <h5 class="card-title">Domos astronómicos</h5>
+                            <p class="card-text">Una experiencia diferente, domos equipados con camas cómodas, calefacción y vista a las estrellas.</p>
+                            <a href="reserva-contacto.html" class="btn btn-primary">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+           </section>
+           <!--gastronomia-->
+           <section id="gastronomia" class="mt-5">
+                <h2 class="mb-4">Gastronomía local</h2>
+                <div class="row">
+                    <!--tarjeta 1-->
+                    <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/restuarante.jpg" class="card-img-top" alt="Gastronomía">
+                        <div class="card-body">
+                            <h5 class="card-title">restaurant "El Capitan"</h5>
+                            <p class="card-text">Especialistas en carnes a las brasas, cazuelas calentitas y pan amasado recién salido del horno.</p>
+                            <a href="reserva-contacto.html" class="btn btn-primary">ver mas</a>
+                        </div>
+                    </div> 
+                </div>
+                    <!--tarjeta 2-->
+                    <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/cafeteria.jpg" class="card-img-top" alt="Gastronomía">
+                        <div class="card-body">
+                            <h5 class="card-title">Cafetería "Dulce Altura"</h5>
+                            <p class="card-text">El lugar perfecto para disfrutar de una once tradicional con kuchenes caseros y chocolate caliente.</p>
+                            <a href="reserva-contacto.html" class="btn btn-primary">ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                    <!--tarjeta 3-->
+                    <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/pica.jpg" class="card-img-top" alt="Gastronomía">
+                        <div class="card-body">
+                            <h5 class="card-title">picada "La Cordillerana"</h5>
+                            <p class="card-text">Sabores caseros imperdibles, comidas tradicionales y preparaciones para combatir el frío de la zona.</p>
+                            <a href="reserva-contacto.html" class="btn btn-primary">ver mas</a>
+                        </div>
+                    </div>
+                </div>
+           </section>
+    </main>
+
+</body>
+</html>

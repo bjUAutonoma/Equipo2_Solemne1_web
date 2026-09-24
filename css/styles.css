@@ -1,1 +1,120 @@
-/* Estilo Propio */
+/*Inicio de estilos generales*/
+
+/* Delimita que el contenedor y cada slide tengan la misma altura*/
+.carousel-inner,
+.carousel-item {
+    height: 70vh;
+    min-height: 400px;
+}
+
+/* La imagen se ajusta sin salirse del marco */
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Ajuste de proporciones para las imágenes de las tarjetas */
+.card-img-top {
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Hace que todas tengan la misma altura */
+.carousel-inner,
+.carousel-item {
+    height: 70vh;
+    min-height: 400px;
+}
+
+/* Ajusta la altura sin salirse del marco */
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Ajuste de proporciones para las imágenes de las tarjetas */
+.card-img-top {
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Implementación de estilos para las tarjetas y página general de panorama.html con css propio */
+/* Estructura de la sección de títulos */
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Contenedor para delimitar margenes */
+.contenedor-principal {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding-right: 40px;
+    padding-left: 40px;     
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Sistema de grillas CSS Grid */
+.fila-panorama {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px 0; 
+}
+
+/* Estructura de las tarjetas de panorama  */
+.tarjeta-panorama {
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Efecto al pasar el mouse por encima */
+.tarjeta-panorama:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Imagen de la tarjeta de panorama */
+.imagen-tarjeta {
+    aspect-ratio: 4 / 3;
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    object-position: center; 
+    display: block; 
+}
+
+/* Contenedorf de los textos de adentro */
+.contenido-tarjeta {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+
+/* Estilos para el título y descripción de la tarjeta */
+.contenido-tarjeta h2 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    color: #333333;
+    font-weight: 600;
+}
+.contenido-tarjeta p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #666666;
+    margin: 0;
+}
